@@ -15,6 +15,7 @@ export const getAllTask = async(req,res)=>{
 //! CREAR
 export const createTask =async(req,res)=>{
     const {name,done,projectId} = req.body
+    console.log("esto es task",Task)
     try {
         const newProjects = await Task.create({ // Esto es para AGREGAR una nueva fila al proyecto
             name,
