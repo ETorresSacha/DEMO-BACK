@@ -1,4 +1,3 @@
-
 # Título del Proyecto
 
 _DEMO API_
